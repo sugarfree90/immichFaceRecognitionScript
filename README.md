@@ -15,12 +15,12 @@ pip install psycopg2-binary
 # docker-compose.yml - you must add ports to machine learning api and database
 for machine learning:
 in section "immich-machine-learning" add 
-    ports:
-      - "3003:3003"
+        ports:
+          - "3003:3003"
 
 in section "database" add
-    ports:
-      - "5432:5432"
+        ports:
+          - "5432:5432"
 # I have added that after .env file section
 
 and resart docker or use this:
